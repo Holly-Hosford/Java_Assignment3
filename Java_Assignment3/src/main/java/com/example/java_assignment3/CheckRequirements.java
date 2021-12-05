@@ -9,4 +9,14 @@ public class CheckRequirements {
         this.emailText = emailText;
     }
   
+  protected boolean passwordLength() {
+        String passcode = this.passwordText.getText();
+        boolean answer = false;
+        if (passcode.length() >= 7){
+            answer = true;
+        };
+        return answer;
+    }
+  
+  
 }
