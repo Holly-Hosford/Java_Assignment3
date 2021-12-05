@@ -36,4 +36,7 @@
       </GridPane.margin>
     </Button>
     
+    <Label fx:id="success" text="" GridPane.halignment="RIGHT" GridPane.rowIndex="2" opacity="0"/>
+
+    
 </GridPane>
