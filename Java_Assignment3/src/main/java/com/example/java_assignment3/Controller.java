@@ -15,7 +15,7 @@ public class Controller {
     public Label success;
 
     @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+    protected void onSubmitButtonClick() {
+        CheckRequirements test = new CheckRequirements(passwordText, emailText);
     }
 }
