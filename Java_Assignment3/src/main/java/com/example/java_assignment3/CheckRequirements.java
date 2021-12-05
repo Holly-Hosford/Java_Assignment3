@@ -48,4 +48,14 @@ public class CheckRequirements {
         return answer;
     }
   
+  protected boolean emailCorrect() {
+        String email = this.emailText.getText();
+        boolean answer = false;
+        String regrex = ("^(.+)@(.+)$");
+        if (email.matches(regrex)) {
+            answer = true;
+        }
+        return answer;
+    }
+  
 }
