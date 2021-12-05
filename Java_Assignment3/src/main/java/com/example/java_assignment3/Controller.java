@@ -23,4 +23,9 @@ public class Controller {
         boolean check4 = test.oneSymbol();
         boolean check5 = test.emailCorrect();
     }
+   
+    if (check1 & check2 & check3 & check4 & check5) {
+            success.setText("Registration was successful");
+            success.setOpacity(100);
+        }
 }
