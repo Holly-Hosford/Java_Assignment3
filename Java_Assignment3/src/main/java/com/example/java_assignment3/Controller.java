@@ -17,5 +17,10 @@ public class Controller {
     @FXML
     protected void onSubmitButtonClick() {
         CheckRequirements test = new CheckRequirements(passwordText, emailText);
+        boolean check1 = test.passwordLength();
+        boolean check2 = test.oneLetter();
+        boolean check3 = test.oneDigit();
+        boolean check4 = test.oneSymbol();
+        boolean check5 = test.emailCorrect();
     }
 }
