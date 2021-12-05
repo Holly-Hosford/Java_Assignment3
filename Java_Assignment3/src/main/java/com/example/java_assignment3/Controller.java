@@ -42,4 +42,8 @@ public class Controller {
             success.setText("The email is well-formed");
             success.setOpacity(100);
         }
+    else if (!check5) {
+            success.setText("The format of the email is incorrect");
+            success.setOpacity(100);
+    }
 }
