@@ -28,4 +28,9 @@ public class Controller {
             success.setText("Registration was successful");
             success.setOpacity(100);
         }
+   
+    else if (check1 & check2 & check3 & check4 & !check5) {
+            success.setText("The password is very strong but the email is formatted badly");
+            success.setOpacity(100);
+        }
 }
