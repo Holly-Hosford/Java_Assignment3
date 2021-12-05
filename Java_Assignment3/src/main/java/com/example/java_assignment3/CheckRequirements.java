@@ -18,5 +18,14 @@ public class CheckRequirements {
         return answer;
     }
   
+  protected boolean oneLetter() {
+        String passcode = this.passwordText.getText();
+        boolean answer = false;
+        String regrex = (".*[a-zA-Z].*");
+        if (passcode.matches(regrex)) {
+            answer = true;
+        }
+        return answer;
+    }
   
 }
