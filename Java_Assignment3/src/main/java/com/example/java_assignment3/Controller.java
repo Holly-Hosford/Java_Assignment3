@@ -33,4 +33,9 @@ public class Controller {
             success.setText("The password is very strong but the email is formatted badly");
             success.setOpacity(100);
         }
+   
+    else if (!check1 | !check2 | !check3 | !check4) {
+            success.setText("The password is not strong enough");
+            success.setOpacity(100);
+        }
 }
