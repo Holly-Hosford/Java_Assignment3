@@ -2,10 +2,17 @@ package com.example.java_assignment3;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
+import javafx.scene.control.PasswordField;
+import javafx.scene.control.TextField;
+
 
 public class Controller {
+   @FXML
+    public TextField emailText;
     @FXML
-    private Label welcomeText;
+    public PasswordField passwordText;
+    @FXML
+    public Label success;
 
     @FXML
     protected void onHelloButtonClick() {
