@@ -1,17 +1,12 @@
 package com.example.assignment;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-class CheckRequirementsTest {
-      package com.example.assignment;
-
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class CheckRequirementsTest {
-    private final String password  = "";
-    private final String email = "";
+    private final String password  = "1a@sdlfbhosbf";
+    private final String email = "abc@gmail.com";
 
     @Test
     void testPasswordLength() {
