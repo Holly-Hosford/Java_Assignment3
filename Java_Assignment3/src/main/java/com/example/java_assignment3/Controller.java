@@ -38,4 +38,8 @@ public class Controller {
             success.setText("The password is not strong enough");
             success.setOpacity(100);
         }
+    else if (check5) {
+            success.setText("The email is well-formed");
+            success.setOpacity(100);
+        }
 }
