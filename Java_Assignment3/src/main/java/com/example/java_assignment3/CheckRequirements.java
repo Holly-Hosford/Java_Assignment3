@@ -38,5 +38,14 @@ public class CheckRequirements {
         return answer;
     }
   
+  protected boolean oneSymbol() {
+        String passcode = this.passwordText.getText();
+        boolean answer = false;
+        String regrex = (".*[*^&@!].*");
+        if (passcode.matches(regrex)) {
+            answer = true;
+        }
+        return answer;
+    }
   
 }
