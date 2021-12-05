@@ -28,4 +28,15 @@ public class CheckRequirements {
         return answer;
     }
   
+  protected boolean oneDigit() {
+        String passcode = this.passwordText.getText();
+        boolean answer = false;
+        String regrex = (".*[0-9].*");
+        if (passcode.matches(regrex)) {
+            answer = true;
+        }
+        return answer;
+    }
+  
+  
 }
